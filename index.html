@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/jquery-1.11.1.min.js"></script>
+ <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Fluid - Graph</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+      <div class="bar"></div>
+
+        <div id="clock" class="clearfix">
+          <div class="block">
+              <span class="flip" id="jaren">0</span>
+              <footer class="label">Years</footer>
+          </div>
+          <div class="block">
+              <span class="flip" id="maanden">0</span>
+              <footer class="label">Months</footer>
+          </div>
+          <div class="block">
+            <span class="flip" id="dagen">0</span>
+            <footer class="label">Days</footer>
+          </div>
+          
+          <div class="block">
+            <span class="flip" id="uren">0</span>
+            <footer class="label">Hours</footer>
+          </div>
+          
+          <div class="block">
+            <span class="flip" id="minuten">0</span>
+            <footer class="label">Mins</footer>
+          </div>
+          
+          <div class="block">
+            <span class="flip" id="seconden">0</span>
+            <footer class="label">Secs</footer>
+          </div>
+      </div>
+    </div>
+
+  <script src="http://d3js.org/d3.v3.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/d3.js"></script>
+  
+  <script> 
+    timeleft();
+  </script>
+</body>
+</html>
